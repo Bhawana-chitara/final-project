@@ -1,6 +1,6 @@
 .mediaViewInfo {
-	--web-view-name: Supplier –;
-	--web-view-id: Supplier_;
+	--web-view-name: Add Supplier ;
+	--web-view-id: Add_Supplier_;
 	--web-scale-to-fit: true;
 	--web-scale-to-fit-type: fit;
 	--web-scale-on-resize: true;
@@ -9,7 +9,7 @@
 	--web-enable-deep-linking: true;
 }
 :root {
-	--web-view-ids: Supplier_;
+	--web-view-ids: Add_Supplier_;
 }
 * {
 	margin: 0;
@@ -17,14 +17,14 @@
 	box-sizing: border-box;
 	border: none;
 }
-.Supplier__Class {
+.Add_Supplier__Class {
 	position: absolute;
 	width: 1920px;
 	height: 1080px;
 	background-color: rgba(255,255,255,1);
 	overflow: hidden;
-	--web-view-name: Supplier –;
-	--web-view-id: Supplier_;
+	--web-view-name: Add Supplier ;
+	--web-view-id: Add_Supplier_;
 	--web-scale-to-fit: true;
 	--web-scale-to-fit-type: fit;
 	--web-scale-on-resize: true;

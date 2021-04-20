@@ -1,6 +1,6 @@
 .mediaViewInfo {
-	--web-view-name: Supplier – manage suppliers;
-	--web-view-id: Supplier__manage_suppliers;
+	--web-view-name: Dashboard;
+	--web-view-id: Dashboard;
 	--web-scale-to-fit: true;
 	--web-scale-to-fit-type: fit;
 	--web-scale-on-resize: true;
@@ -9,7 +9,7 @@
 	--web-enable-deep-linking: true;
 }
 :root {
-	--web-view-ids: Supplier__manage_suppliers;
+	--web-view-ids: Dashboard;
 }
 * {
 	margin: 0;
@@ -17,14 +17,14 @@
 	box-sizing: border-box;
 	border: none;
 }
-.Supplier__manage_suppliers_Class {
+.Dashboard_Class {
 	position: absolute;
 	width: 1920px;
 	height: 1080px;
 	background-color: rgba(255,255,255,1);
 	overflow: hidden;
-	--web-view-name: Supplier – manage suppliers;
-	--web-view-id: Supplier__manage_suppliers;
+	--web-view-name: Dashboard;
+	--web-view-id: Dashboard;
 	--web-scale-to-fit: true;
 	--web-scale-to-fit-type: fit;
 	--web-scale-on-resize: true;
@@ -32,27 +32,13 @@
 	--web-center-vertically: true;
 	--web-enable-deep-linking: true;
 }
-.Rectangle_10_Class {
-	fill: rgba(149,205,253,1);
-}
-.Rectangle_10 {
+.Navigation_bar_Class {
 	position: absolute;
-	overflow: visible;
-	width: 435px;
-	height: 973px;
+	width: 1920px;
+	height: 97px;
 	left: 0px;
-	top: 117px;
-}
-.Rectangle_21_Class {
-	fill: rgba(7,72,122,1);
-}
-.Rectangle_21 {
-	position: absolute;
+	top: 0px;
 	overflow: visible;
-	width: 435px;
-	height: 131px;
-	left: 0px;
-	top: 409px;
 }
 .Rectangle_9_Class {
 	fill: rgba(149,205,253,1);
@@ -80,7 +66,7 @@
 	color: rgba(0,0,0,1);
 	text-transform: uppercase;
 }
-.Group_4_Class {
+.register_button_Class {
 	position: absolute;
 	width: 157px;
 	height: 59px;
@@ -146,9 +132,774 @@
 	font-size: 20px;
 	color: rgba(0,0,0,1);
 }
+.recent_buyer_Class {
+	position: absolute;
+	width: 312px;
+	height: 186px;
+	left: 1290px;
+	top: 138px;
+	overflow: visible;
+}
+.Rectangle_15_Class {
+	fill: rgba(245,245,245,1);
+}
+.Rectangle_15 {
+	position: absolute;
+	overflow: visible;
+	width: 312px;
+	height: 186px;
+	left: 0px;
+	top: 0px;
+}
+.ID2_Class {
+	left: 159px;
+	top: 50px;
+	position: absolute;
+	overflow: visible;
+	width: 17px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+.Buyer_Class {
+	left: 159px;
+	top: 95px;
+	position: absolute;
+	overflow: visible;
+	width: 76px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+.Icon_awesome-user-alt_Class {
+	fill: rgba(7,72,122,1);
+}
+.Icon_awesome-user-alt {
+	overflow: visible;
+	position: absolute;
+	width: 59.83px;
+	height: 59.83px;
+	left: 35.563px;
+	top: 63px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.recent_order__Class {
+	position: absolute;
+	width: 312px;
+	height: 186px;
+	left: 506px;
+	top: 138px;
+	overflow: visible;
+}
+.Rectangle_13_Class {
+	fill: rgba(245,245,245,1);
+}
+.Rectangle_13 {
+	position: absolute;
+	overflow: visible;
+	width: 312px;
+	height: 186px;
+	left: 0px;
+	top: 0px;
+}
+.ID4_Class {
+	left: 174px;
+	top: 51px;
+	position: absolute;
+	overflow: visible;
+	width: 17px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+.Order_Class {
+	left: 174px;
+	top: 96px;
+	position: absolute;
+	overflow: visible;
+	width: 78px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+.Icon_material-shopping-cart_Class {
+	fill: rgba(7,72,122,1);
+}
+.Icon_material-shopping-cart {
+	overflow: visible;
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	left: 34px;
+	top: 63px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.recent_product_Class {
+	position: absolute;
+	width: 312px;
+	height: 186px;
+	left: 898px;
+	top: 138px;
+	overflow: visible;
+}
+.Rectangle_14_Class {
+	fill: rgba(245,245,245,1);
+}
+.Rectangle_14 {
+	position: absolute;
+	overflow: visible;
+	width: 312px;
+	height: 186px;
+	left: 0px;
+	top: 0px;
+}
+.Group_3_Class {
+	position: absolute;
+	width: 103px;
+	height: 85px;
+	left: 168px;
+	top: 51px;
+	overflow: visible;
+}
+.ID3_Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 17px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+.Product_Class {
+	left: 0px;
+	top: 45px;
+	position: absolute;
+	overflow: visible;
+	width: 104px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+.Icon_awesome-tags_Class {
+	fill: rgba(7,72,122,1);
+}
+.Icon_awesome-tags {
+	overflow: visible;
+	position: absolute;
+	width: 66.486px;
+	height: 53.188px;
+	left: 38.036px;
+	top: 66px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Rectangle_17_Class {
+	fill: rgba(245,245,245,1);
+}
+.Rectangle_17 {
+	position: absolute;
+	overflow: visible;
+	width: 1348px;
+	height: 556px;
+	left: 506px;
+	top: 392px;
+}
+.Line_10_Class {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 6px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_10 {
+	overflow: visible;
+	position: absolute;
+	width: 1348px;
+	height: 6px;
+	left: 506.5px;
+	top: 471.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.ORDERS_Class {
+	left: 578px;
+	top: 414px;
+	position: absolute;
+	overflow: visible;
+	width: 96px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}
 .Supplier_Class {
+	left: 633px;
+	top: 499px;
+	position: absolute;
+	overflow: visible;
+	width: 97px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(0,0,0,1);
+	text-transform: uppercase;
+}
+.Product_be_Class {
+	left: 827px;
+	top: 499px;
+	position: absolute;
+	overflow: visible;
+	width: 101px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(0,0,0,1);
+	text-transform: uppercase;
+}
+.Color_Class {
+	left: 1061px;
+	top: 499px;
+	position: absolute;
+	overflow: visible;
+	width: 72px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(0,0,0,1);
+	text-transform: uppercase;
+}
+.Buyer_bg_Class {
+	left: 1210px;
+	top: 499px;
+	position: absolute;
+	overflow: visible;
+	width: 68px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(0,0,0,1);
+	text-transform: uppercase;
+}
+.Category_Class {
+	left: 1355px;
+	top: 499px;
+	position: absolute;
+	overflow: visible;
+	width: 109px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(0,0,0,1);
+	text-transform: uppercase;
+}
+.Date_Class {
+	left: 1541px;
+	top: 499px;
+	position: absolute;
+	overflow: visible;
+	width: 53px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(0,0,0,1);
+	text-transform: uppercase;
+}
+.Status_Class {
+	left: 1708px;
+	top: 499px;
+	position: absolute;
+	overflow: visible;
+	width: 76px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(0,0,0,1);
+	text-transform: uppercase;
+}
+._Class {
+	left: 540px;
+	top: 496px;
+	position: absolute;
+	overflow: visible;
+	width: 16px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+}
+.ID1_Class {
+	left: 540px;
+	top: 590px;
+	position: absolute;
+	overflow: visible;
+	width: 13px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(0,0,0,1);
+}
+.Supplier_Name_Class {
+	left: 633px;
+	top: 589px;
+	position: absolute;
+	overflow: visible;
+	width: 145px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(0,0,0,1);
+}
+.Product_1_Class {
+	left: 827px;
+	top: 589px;
+	position: absolute;
+	overflow: visible;
+	width: 95px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(0,0,0,1);
+}
+.Blue_Class {
+	left: 1061px;
+	top: 589px;
+	position: absolute;
+	overflow: visible;
+	width: 43px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(0,0,0,1);
+}
+.Category_1_Class {
+	left: 1355px;
+	top: 589px;
+	position: absolute;
+	overflow: visible;
+	width: 107px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(0,0,0,1);
+}
+.ID2042020_Class {
+	left: 1541px;
+	top: 589px;
+	position: absolute;
+	overflow: visible;
+	width: 101px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(0,0,0,1);
+}
+.ID2042020_br_Class {
+	left: 1541px;
+	top: 668px;
+	position: absolute;
+	overflow: visible;
+	width: 101px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(0,0,0,1);
+}
+.ID2042020_bs_Class {
+	left: 1541px;
+	top: 747px;
+	position: absolute;
+	overflow: visible;
+	width: 101px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(0,0,0,1);
+}
+.Category_2_Class {
+	left: 1355px;
+	top: 668px;
+	position: absolute;
+	overflow: visible;
+	width: 107px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(0,0,0,1);
+}
+.Category_3_Class {
+	left: 1355px;
+	top: 747px;
+	position: absolute;
+	overflow: visible;
+	width: 107px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(0,0,0,1);
+}
+.Buyer__Name_Class {
+	left: 1210px;
+	top: 588px;
+	position: absolute;
+	overflow: visible;
+	width: 62px;
+	white-space: nowrap;
+	line-height: 32px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(0,0,0,1);
+}
+.Buyer__Name_bw_Class {
+	left: 1210px;
+	top: 667px;
+	position: absolute;
+	overflow: visible;
+	width: 62px;
+	white-space: nowrap;
+	line-height: 32px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(0,0,0,1);
+}
+.Buyer__Name_bx_Class {
+	left: 1210px;
+	top: 746px;
+	position: absolute;
+	overflow: visible;
+	width: 62px;
+	white-space: nowrap;
+	line-height: 32px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(0,0,0,1);
+}
+.Red_Class {
+	left: 1061px;
+	top: 668px;
+	position: absolute;
+	overflow: visible;
+	width: 38px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(0,0,0,1);
+}
+.Brown_Class {
+	left: 1061px;
+	top: 747px;
+	position: absolute;
+	overflow: visible;
+	width: 62px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(0,0,0,1);
+}
+.Product_2_Class {
+	left: 827px;
+	top: 668px;
+	position: absolute;
+	overflow: visible;
+	width: 95px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(0,0,0,1);
+}
+.Product_3_Class {
+	left: 827px;
+	top: 747px;
+	position: absolute;
+	overflow: visible;
+	width: 95px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(0,0,0,1);
+}
+.Supplier_Name_b_Class {
+	left: 633px;
+	top: 668px;
+	position: absolute;
+	overflow: visible;
+	width: 145px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(0,0,0,1);
+}
+.Supplier_Name_ca_Class {
+	left: 633px;
+	top: 747px;
+	position: absolute;
+	overflow: visible;
+	width: 145px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(0,0,0,1);
+}
+.ID2_b_Class {
+	left: 540px;
+	top: 668px;
+	position: absolute;
+	overflow: visible;
+	width: 13px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(0,0,0,1);
+}
+.ID3_b_Class {
+	left: 540px;
+	top: 746px;
+	position: absolute;
+	overflow: visible;
+	width: 13px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(0,0,0,1);
+}
+.Decline_Class {
+	position: absolute;
+	width: 137px;
+	height: 43px;
+	left: 1690px;
+	top: 583px;
+	overflow: visible;
+}
+.Rectangle_18_Class {
+	fill: rgba(255,43,43,1);
+}
+.Rectangle_18 {
+	position: absolute;
+	overflow: visible;
+	width: 137px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+}
+.Decline_b_Class {
+	left: 33px;
+	top: 7px;
+	position: absolute;
+	overflow: visible;
+	width: 73px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(255,255,255,1);
+}
+.Approved_Class {
+	position: absolute;
+	width: 137px;
+	height: 43px;
+	left: 1690px;
+	top: 662px;
+	overflow: visible;
+}
+.Rectangle_19_Class {
+	fill: rgba(124,159,255,1);
+}
+.Rectangle_19 {
+	position: absolute;
+	overflow: visible;
+	width: 137px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+}
+.Approved_cb_Class {
+	left: 21px;
+	top: 6px;
+	position: absolute;
+	overflow: visible;
+	width: 97px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(255,255,255,1);
+}
+.Complete_Class {
+	position: absolute;
+	width: 137px;
+	height: 43px;
+	left: 1690px;
+	top: 741px;
+	overflow: visible;
+}
+.Rectangle_20_Class {
+	fill: rgba(97,181,3,1);
+}
+.Rectangle_20 {
+	position: absolute;
+	overflow: visible;
+	width: 137px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+}
+.Complete_ce_Class {
+	left: 22px;
+	top: 7px;
+	position: absolute;
+	overflow: visible;
+	width: 95px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(255,255,255,1);
+}
+.Menu_Class {
+	position: absolute;
+	width: 435px;
+	height: 973px;
+	left: 0px;
+	top: 117px;
+	overflow: visible;
+}
+.Rectangle_10_Class {
+	fill: rgba(149,205,253,1);
+}
+.Rectangle_10 {
+	position: absolute;
+	overflow: visible;
+	width: 435px;
+	height: 973px;
+	left: 0px;
+	top: 0px;
+}
+.Supplier_ch_Class {
 	left: 103px;
-	top: 355px;
+	top: 238px;
 	position: absolute;
 	overflow: visible;
 	width: 103px;
@@ -160,37 +911,9 @@
 	font-size: 28px;
 	color: rgba(0,0,0,1);
 }
-.Add_Supplier_Class {
-	left: 148px;
-	top: 428px;
-	position: absolute;
-	overflow: visible;
-	width: 115px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 20px;
-	color: rgba(255,255,255,1);
-}
-.Manage_Supplier_Class {
-	left: 148px;
-	top: 491px;
-	position: absolute;
-	overflow: visible;
-	width: 151px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 20px;
-	color: rgba(255,255,255,1);
-}
-.Buyer_Class {
+.Buyer_ci_Class {
 	left: 103px;
-	top: 566px;
+	top: 319px;
 	position: absolute;
 	overflow: visible;
 	width: 71px;
@@ -202,9 +925,9 @@
 	font-size: 28px;
 	color: rgba(0,0,0,1);
 }
-.Category_Class {
+.Category_cj_Class {
 	left: 103px;
-	top: 647px;
+	top: 400px;
 	position: absolute;
 	overflow: visible;
 	width: 113px;
@@ -216,9 +939,9 @@
 	font-size: 28px;
 	color: rgba(0,0,0,1);
 }
-.Product_Class {
+.Product_ck_Class {
 	left: 103px;
-	top: 729px;
+	top: 482px;
 	position: absolute;
 	overflow: visible;
 	width: 98px;
@@ -230,9 +953,9 @@
 	font-size: 28px;
 	color: rgba(0,0,0,1);
 }
-.Order_Class {
+.Order_cl_Class {
 	left: 103px;
-	top: 810px;
+	top: 563px;
 	position: absolute;
 	overflow: visible;
 	width: 73px;
@@ -246,7 +969,7 @@
 }
 .Delivery_Class {
 	left: 103px;
-	top: 891px;
+	top: 644px;
 	position: absolute;
 	overflow: visible;
 	width: 100px;
@@ -260,7 +983,7 @@
 }
 .STORE_Class {
 	left: 44px;
-	top: 258px;
+	top: 141px;
 	position: absolute;
 	overflow: visible;
 	width: 84px;
@@ -272,9 +995,9 @@
 	font-size: 28px;
 	color: rgba(0,0,0,1);
 }
-.Dashboard_Class {
+.Dashboard_co_Class {
 	left: 98px;
-	top: 148px;
+	top: 31px;
 	position: absolute;
 	overflow: visible;
 	width: 139px;
@@ -295,7 +1018,7 @@
 	width: 27px;
 	height: 27px;
 	left: 43.5px;
-	top: 153px;
+	top: 36px;
 	transform: matrix(1,0,0,1,0,0);
 }
 .Line_3_Class {
@@ -313,7 +1036,7 @@
 	width: 404.5px;
 	height: 1.5px;
 	left: 16.5px;
-	top: 201.5px;
+	top: 84.5px;
 	transform: matrix(1,0,0,1,0,0);
 }
 .Line_4_Class {
@@ -331,7 +1054,7 @@
 	width: 404.5px;
 	height: 1.5px;
 	left: 16.5px;
-	top: 540.5px;
+	top: 293.5px;
 	transform: matrix(1,0,0,1,0,0);
 }
 .Line_5_Class {
@@ -349,26 +1072,7 @@
 	width: 404.5px;
 	height: 1.5px;
 	left: 16.5px;
-	top: 622.5px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.Line_11_Class {
-	opacity: 0.5;
-	fill: transparent;
-	stroke: rgba(255,255,255,1);
-	stroke-width: 1.5px;
-	stroke-linejoin: miter;
-	stroke-linecap: round;
-	stroke-miterlimit: 4;
-	shape-rendering: auto;
-}
-.Line_11 {
-	overflow: visible;
-	position: absolute;
-	width: 404.5px;
-	height: 1.5px;
-	left: 16px;
-	top: 474.5px;
+	top: 375.5px;
 	transform: matrix(1,0,0,1,0,0);
 }
 .Line_6_Class {
@@ -386,7 +1090,7 @@
 	width: 404.5px;
 	height: 1.5px;
 	left: 16.5px;
-	top: 705.5px;
+	top: 458.5px;
 	transform: matrix(1,0,0,1,0,0);
 }
 .Line_7_Class {
@@ -404,7 +1108,7 @@
 	width: 404.5px;
 	height: 1.5px;
 	left: 16.5px;
-	top: 787.5px;
+	top: 540.5px;
 	transform: matrix(1,0,0,1,0,0);
 }
 .Line_8_Class {
@@ -422,7 +1126,7 @@
 	width: 404.5px;
 	height: 1.5px;
 	left: 16.5px;
-	top: 870.5px;
+	top: 623.5px;
 	transform: matrix(1,0,0,1,0,0);
 }
 .Line_9_Class {
@@ -440,31 +1144,31 @@
 	width: 404.5px;
 	height: 1.5px;
 	left: 16.5px;
-	top: 952.5px;
+	top: 705.5px;
 	transform: matrix(1,0,0,1,0,0);
 }
-.Icon_awesome-user-alt_Class {
+.Icon_awesome-user-alt_cx_Class {
 	fill: rgba(0,0,0,1);
 }
-.Icon_awesome-user-alt {
+.Icon_awesome-user-alt_cx {
 	overflow: visible;
 	position: absolute;
 	width: 24.151px;
 	height: 24.151px;
 	left: 43px;
-	top: 361px;
+	top: 244px;
 	transform: matrix(1,0,0,1,0,0);
 }
-.Icon_material-shopping-cart_Class {
+.Icon_material-shopping-cart_cy_Class {
 	fill: rgba(0,0,0,1);
 }
-.Icon_material-shopping-cart {
+.Icon_material-shopping-cart_cy {
 	overflow: visible;
 	position: absolute;
 	width: 23.674px;
 	height: 23.674px;
 	left: 43px;
-	top: 817px;
+	top: 570px;
 	transform: matrix(1,0,0,1,0,0);
 }
 .Icon_metro-truck_Class {
@@ -476,19 +1180,19 @@
 	width: 25.715px;
 	height: 20.893px;
 	left: 43px;
-	top: 899px;
+	top: 652px;
 	transform: matrix(1,0,0,1,0,0);
 }
-.Icon_awesome-tags_Class {
+.Icon_awesome-tags_c_Class {
 	fill: rgba(0,0,0,1);
 }
-.Icon_awesome-tags {
+.Icon_awesome-tags_c {
 	overflow: visible;
 	position: absolute;
 	width: 23.928px;
 	height: 19.143px;
 	left: 43px;
-	top: 738px;
+	top: 491px;
 	transform: matrix(1,0,0,1,0,0);
 }
 .list_Class {
@@ -496,7 +1200,7 @@
 	width: 23px;
 	height: 23px;
 	left: 43px;
-	top: 654px;
+	top: 407px;
 	overflow: visible;
 }
 .Icon_ionic-ios-arrow-down_Class {
@@ -508,37 +1212,25 @@
 	width: 18.805px;
 	height: 10.752px;
 	left: 358px;
-	top: 368px;
+	top: 251px;
 	transform: matrix(1,0,0,1,0,0);
 }
-.Icon_ionic-ios-arrow-down_bk_Class {
+.Icon_ionic-ios-arrow-down_c_Class {
 	fill: rgba(0,0,0,1);
 }
-.Icon_ionic-ios-arrow-down_bk {
+.Icon_ionic-ios-arrow-down_c {
 	overflow: visible;
 	position: absolute;
 	width: 18.805px;
 	height: 10.752px;
 	left: 358px;
-	top: 661px;
+	top: 414px;
 	transform: matrix(1,0,0,1,0,0);
 }
-.Icon_ionic-ios-arrow-down_bl_Class {
+.Icon_ionic-ios-arrow-down_da_Class {
 	fill: rgba(0,0,0,1);
 }
-.Icon_ionic-ios-arrow-down_bl {
-	overflow: visible;
-	position: absolute;
-	width: 18.805px;
-	height: 10.752px;
-	left: 358px;
-	top: 826px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.Icon_ionic-ios-arrow-down_bm_Class {
-	fill: rgba(0,0,0,1);
-}
-.Icon_ionic-ios-arrow-down_bm {
+.Icon_ionic-ios-arrow-down_da {
 	overflow: visible;
 	position: absolute;
 	width: 18.805px;
@@ -547,28 +1239,40 @@
 	top: 579px;
 	transform: matrix(1,0,0,1,0,0);
 }
-.Icon_ionic-ios-arrow-down_bn_Class {
+.Icon_ionic-ios-arrow-down_db_Class {
 	fill: rgba(0,0,0,1);
 }
-.Icon_ionic-ios-arrow-down_bn {
+.Icon_ionic-ios-arrow-down_db {
 	overflow: visible;
 	position: absolute;
 	width: 18.805px;
 	height: 10.752px;
 	left: 358px;
-	top: 742px;
+	top: 332px;
 	transform: matrix(1,0,0,1,0,0);
 }
-.Icon_ionic-ios-arrow-down_bo_Class {
+.Icon_ionic-ios-arrow-down_dc_Class {
 	fill: rgba(0,0,0,1);
 }
-.Icon_ionic-ios-arrow-down_bo {
+.Icon_ionic-ios-arrow-down_dc {
 	overflow: visible;
 	position: absolute;
 	width: 18.805px;
 	height: 10.752px;
 	left: 358px;
-	top: 907px;
+	top: 495px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Icon_ionic-ios-arrow-down_dd_Class {
+	fill: rgba(0,0,0,1);
+}
+.Icon_ionic-ios-arrow-down_dd {
+	overflow: visible;
+	position: absolute;
+	width: 18.805px;
+	height: 10.752px;
+	left: 358px;
+	top: 660px;
 	transform: matrix(1,0,0,1,0,0);
 }
 .buyer_Class {
@@ -576,417 +1280,6 @@
 	width: 26px;
 	height: 26px;
 	left: 43px;
-	top: 572px;
+	top: 325px;
 	overflow: visible;
-}
-.-_Class {
-	left: 95px;
-	top: 423px;
-	position: absolute;
-	overflow: visible;
-	width: 12px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 28px;
-	color: rgba(255,255,255,1);
-}
-.-_br_Class {
-	left: 95px;
-	top: 486px;
-	position: absolute;
-	overflow: visible;
-	width: 12px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 28px;
-	color: rgba(255,255,255,1);
-}
-.Manage_suppliers_Class {
-	left: 516px;
-	top: 143px;
-	position: absolute;
-	overflow: visible;
-	width: 264px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 28px;
-	color: rgba(0,0,0,1);
-	text-transform: uppercase;
-}
-.Rectangle_22_Class {
-	fill: rgba(245,245,245,1);
-}
-.Rectangle_22 {
-	position: absolute;
-	overflow: visible;
-	width: 1383px;
-	height: 824px;
-	left: 516px;
-	top: 236px;
-}
-.Line_12_Class {
-	fill: transparent;
-	stroke: rgba(255,255,255,1);
-	stroke-width: 6px;
-	stroke-linejoin: miter;
-	stroke-linecap: butt;
-	stroke-miterlimit: 4;
-	shape-rendering: auto;
-}
-.Line_12 {
-	overflow: visible;
-	position: absolute;
-	width: 1413px;
-	height: 6px;
-	left: 461.5px;
-	top: 315.314px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.SNO_Class {
-	left: 588px;
-	top: 256px;
-	position: absolute;
-	overflow: visible;
-	width: 61px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 26px;
-	color: rgba(0,0,0,1);
-	text-transform: uppercase;
-}
-.Supplier_Name_Class {
-	left: 765px;
-	top: 256px;
-	position: absolute;
-	overflow: visible;
-	width: 196px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 26px;
-	color: rgba(0,0,0,1);
-	text-transform: uppercase;
-}
-.product_Class {
-	left: 1092px;
-	top: 256px;
-	position: absolute;
-	overflow: visible;
-	width: 119px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 26px;
-	color: rgba(0,0,0,1);
-	text-transform: uppercase;
-}
-.status_Class {
-	left: 1366px;
-	top: 256px;
-	position: absolute;
-	overflow: visible;
-	width: 90px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 26px;
-	color: rgba(0,0,0,1);
-	text-transform: uppercase;
-}
-.creation_date_Class {
-	left: 1611px;
-	top: 256px;
-	position: absolute;
-	overflow: visible;
-	width: 193px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 26px;
-	color: rgba(0,0,0,1);
-	text-transform: uppercase;
-}
-.Group_6_Class {
-	position: absolute;
-	width: 389px;
-	height: 73px;
-	left: 1510px;
-	top: 126px;
-	overflow: visible;
-}
-.Rectangle_28_Class {
-	opacity: 0.42;
-	fill: rgba(255,255,255,1);
-	stroke: rgba(112,112,112,1);
-	stroke-width: 1px;
-	stroke-linejoin: miter;
-	stroke-linecap: butt;
-	stroke-miterlimit: 4;
-	shape-rendering: auto;
-}
-.Rectangle_28 {
-	position: absolute;
-	overflow: visible;
-	width: 389px;
-	height: 73px;
-	left: 0px;
-	top: 0px;
-}
-.Search_Class {
-	opacity: 0.39;
-	left: 55px;
-	top: 19px;
-	position: absolute;
-	overflow: visible;
-	width: 79px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 26px;
-	color: rgba(0,0,0,1);
-}
-.Icon_map-search_Class {
-	opacity: 0.28;
-	fill: rgba(0,0,0,1);
-}
-.Icon_map-search {
-	overflow: visible;
-	position: absolute;
-	width: 33.12px;
-	height: 33.12px;
-	left: 325.212px;
-	top: 18.94px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.ID1_Class {
-	left: 567px;
-	top: 386px;
-	position: absolute;
-	overflow: visible;
-	width: 13px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 22px;
-	color: rgba(0,0,0,1);
-}
-.Supplier_Name_b_Class {
-	left: 765px;
-	top: 381px;
-	position: absolute;
-	overflow: visible;
-	width: 145px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 22px;
-	color: rgba(0,0,0,1);
-}
-.Blue_Class {
-	left: 1088px;
-	top: 385px;
-	position: absolute;
-	overflow: visible;
-	width: 43px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 22px;
-	color: rgba(0,0,0,1);
-}
-.Category_1_Class {
-	left: 1382px;
-	top: 385px;
-	position: absolute;
-	overflow: visible;
-	width: 107px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 22px;
-	color: rgba(0,0,0,1);
-}
-.ID2042020_Class {
-	left: 1611px;
-	top: 386px;
-	position: absolute;
-	overflow: visible;
-	width: 101px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 22px;
-	color: rgba(0,0,0,1);
-}
-.ID2042020_b_Class {
-	left: 1611px;
-	top: 465px;
-	position: absolute;
-	overflow: visible;
-	width: 101px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 22px;
-	color: rgba(0,0,0,1);
-}
-.ID2042020_ca_Class {
-	left: 1611px;
-	top: 544px;
-	position: absolute;
-	overflow: visible;
-	width: 101px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 22px;
-	color: rgba(0,0,0,1);
-}
-.Category_2_Class {
-	left: 1382px;
-	top: 464px;
-	position: absolute;
-	overflow: visible;
-	width: 107px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 22px;
-	color: rgba(0,0,0,1);
-}
-.Category_3_Class {
-	left: 1382px;
-	top: 543px;
-	position: absolute;
-	overflow: visible;
-	width: 107px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 22px;
-	color: rgba(0,0,0,1);
-}
-.Red_Class {
-	left: 1088px;
-	top: 464px;
-	position: absolute;
-	overflow: visible;
-	width: 38px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 22px;
-	color: rgba(0,0,0,1);
-}
-.Brown_Class {
-	left: 1088px;
-	top: 543px;
-	position: absolute;
-	overflow: visible;
-	width: 62px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 22px;
-	color: rgba(0,0,0,1);
-}
-.Supplier_Name_cf_Class {
-	left: 765px;
-	top: 460px;
-	position: absolute;
-	overflow: visible;
-	width: 145px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 22px;
-	color: rgba(0,0,0,1);
-}
-.Supplier_Name_cg_Class {
-	left: 765px;
-	top: 539px;
-	position: absolute;
-	overflow: visible;
-	width: 145px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 22px;
-	color: rgba(0,0,0,1);
-}
-.ID2_Class {
-	left: 567px;
-	top: 464px;
-	position: absolute;
-	overflow: visible;
-	width: 13px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 22px;
-	color: rgba(0,0,0,1);
-}
-.ID3_Class {
-	left: 567px;
-	top: 542px;
-	position: absolute;
-	overflow: visible;
-	width: 13px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Segoe UI;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 22px;
-	color: rgba(0,0,0,1);
 }

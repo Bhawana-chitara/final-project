@@ -1,4 +1,10 @@
+/*Side Menubar properties*/
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+:root{
+  --active-main-color:#3b3b3b;
+}
+
 
 *{
   margin: 0;
@@ -10,8 +16,13 @@
 }
 
 body{
-   background-color: #f3f5f9;
+   background-color: #f1f1f1;
 }
+
+.tableArea{
+    background-color: rgb(228, 228, 228);
+}
+
 
 .wrapper{
   display: flex;
@@ -51,7 +62,7 @@ body{
 }
 
 .wrapper .sidebar ul li:hover{
-  background-color: #3b3b3b;
+  background-color: var(--active-main-color);
 }
     
 .wrapper .sidebar ul li:hover a{
@@ -76,20 +87,44 @@ body{
   margin-left: 1040px;
 }
 
-
-.wrapper .main_content .info{
-  margin: 20px;
-  color: #717171;
-  line-height: 25px;
-}
-
-.wrapper .main_content .info div{
-  margin-bottom: 20px;
-}
-
-
 @media (max-height: 500px){
   .social_media{
     display: none !important;
   }
+}
+
+
+/*Table properties*/
+table, td, th {  
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin-top: 40px;
+    margin-left: 350px;
+  }
+  
+  .AddProduct{
+    margin-left: 350px ;
+    margin-top: 40px;
+    background-color: white;
+    padding: 10px;
+    border: 2.5px solid lightblue;
+  }
+
+  th, td {
+    padding: 15px;
+  }
+  
+#activeField{
+  background-color: var(--active-main-color);
+  color: white;
+}
+
+#activeField a{
+  background-color: var(--active-main-color);
+  color: white;
 }

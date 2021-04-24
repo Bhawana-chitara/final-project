@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Dashboard.css" />
-    <title>Dashboard</title>
+    <title>Product</title>
+    <link rel="stylesheet" href="./Product.css"/>
 </head>
 <body>
     <div class="wrapper">
         <div class="sidebar">
             <h2>INVENTORY MANAGEMENT SYSTEM</h2>
             <ul>
-                <li><a href="http://127.0.0.1:5500/Frontend/Product.html"><i class="fas fa-home"></i>Product</a</li>
+                <li i="activeField"><a href="#"><i class="fas fa-home"></i>Product</a</li>
                 <li><a href="#"><i class="fas fa-user"></i>Buyer</a></li>
                 <li><a href="#"><i class="fas fa-address-card"></i>Category</a></li>
                 <li><a href="#"><i class="fas fa-project-diagram"></i>Order</a></li>
@@ -22,14 +22,51 @@
         <div class="main_content">
             <div class="header"> 
             <input class="login-button" type="button" value="LOGOUT" /> 
+            
         </div> 
         </div>
     </div>
+    
+<a href="http://127.0.0.1:5500/Frontend/Add%20Product.html">
+  <button class="AddProduct">+ Add Product</button>
+</a>
 
-    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+<h3>Manage Product</h3>
+
+<table class="tableArea">
+  <tr>
+    <th>Product Name</th>
+    <th>Product Price</th>
+    <th>Quantity</th>
+    <th>Date</th>
+    <th>Status</th>
+  </tr>
+  <tr>
+    <td>Chair</td>
+    <td>Rs.100</td>
+    <td>2</td>
+    <td>24/04/21</td>
+    <td>Active</td>
+  </tr>
+  <tr>
+    <td>Table</td>
+    <td>Rs.250</td>
+    <td>3</td>
+    <td>22/04/21</td>
+    <td>Active</td>
+  </tr>
+  <tr>
+    <td>Joe</td>
+    <td>Rs.200</td>
+    <td>3</td>
+    <td>22/04/21</td>
+    <td>Delivered</td>
+  </tr>
+</table>
+
+<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 
 </body>
 </html>
-
 
 

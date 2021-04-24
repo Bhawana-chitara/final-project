@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="./AddProduct.css" />
+<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+    />
+<body>
+
+<div class="container">
+  <form id="productForm" action="">
+
+    <label for="Product name">Product Name:</label>
+    <input class="u-half-width" type="text" id="fname" name="name" placeholder="product name">
+
+    <label for="Price">Product Price:</label>
+    <input class="u-half-width" type="text" id="price" name="price" placeholder="product price">
+
+    <label for="Price">Product Quantity:</label>
+    <input class="u-half-width" type="text" id="qty" name="quantity" placeholder="quantity">
+
+    <label for="status">Status:</label>
+    <select id="check-status" name="status">
+      <option value="active">Active</option>
+      <option value="delivered">Inactive</option>
+    </select>
+
+    <label for="Date">Date:</label>
+    <input type="date" id="date" name="date" placeholder="date"><br>
+
+    <input type="submit" class="u-half-width button-primary" value="Submit">
+
+  </form>
+</div>
+
+<script src="./AddProduct.js"></script>
+</body>
+</html>

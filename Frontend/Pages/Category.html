@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category</title>
+    <link rel="stylesheet" href="../CSS/Category.css"/>
+    <link rel="stylesheet" href="../CSS/AddCategory.css"/>
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <div class="sidebar">
+        <h2>INVENTORY MANAGEMENT SYSTEM</h2>
+        <ul>
+            <li i="activeField" id="CurrentPage" ><a href="#"><i class="fas fa-home" ></i>Product</a</li>
+            <li><a href="#"><i class="fas fa-user"></i>Buyer</a></li>
+            <li><a href="./Category.html"><i class="fas fa-address-card"></i>Category</a></li>
+            <li><a href="#"><i class="fas fa-project-diagram"></i>Order</a></li>
+            <li><a href="#"><i class="fas fa-blog"></i>Delivery</a></li>
+        </ul> 
+    </div>
+
+    <div class="main_content">
+        <div class="header"> 
+        <input class="login-button" type="button" value="LOGOUT" /> 
+        
+    </div> 
+    </div>
+</div>
+
+<div class="container">
+  <form id="productForm" action="">
+
+    <label for="Product name">Product Name:</label>
+    <input class="u-half-width" type="text" id="fname" name="name" placeholder="product name">
+
+    <label for="Price">Product Price:</label>
+    <input class="u-half-width" type="text" id="price" name="price" placeholder="product price">
+
+    <label for="Price">Product Quantity:</label>
+    <input class="u-half-width" type="text" id="qty" name="quantity" placeholder="quantity">
+
+    <label for="status">Status:</label>
+    <select id="check-status" name="status">
+      <option value="active">Active</option>
+      <option value="delivered">Inactive</option>
+    </select>
+
+    <label for="Date">Date:</label>
+    <input type="date" id="date" name="date" placeholder="date"><br>
+
+    <input type="submit" class="u-half-width button-primary" value="Submit">
+
+  </form>
+</div>
+
+  <button class="AddProduct" id="AddCategoryButton">+ Add Category</button>
+
+
+ <div id="Content">
+  <table class="u-full-width" id="CategoryTable" >
+    <thsead>
+      <tr>
+        <th>Product Name</th>
+        <th>Product Price</th>
+        <th>Quantity</th>
+        <th>Date</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody id="ProductTable" >
+  </div>
+
+</div> 
+<!-- main div end -->
+
+
+<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+<script src="../JS/Category.js"></script>
+</body>
+</html>
+
+

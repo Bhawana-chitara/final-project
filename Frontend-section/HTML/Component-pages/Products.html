@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../CSS/Dashboard.css" />
+    <link rel="stylesheet" href="../../CSS/Product.css">
+    
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <h2>INVENTORY MANAGEMENT SYSTEM</h2>
+            <ul>
+                <li id="activeField"><a href="./Component-pages/Products.html"><i class="fas fa-home"></i>Product</a</li>
+                <li><a href="./Component-pages/Buyer.html"><i class="fas fa-user"></i>Buyer</a></li>
+                <li><a href="./Component-pages/Category.html"><i class="fas fa-address-card"></i>Category</a></li>
+                <li><a href="./Component-pages/Order.html"><i class="fas fa-project-diagram"></i>Order</a></li>
+                <li><a href="./Component-pages/Delivery.html"><i class="fas fa-blog"></i>Delivery</a></li>
+            </ul> 
+        </div>
+    </div>
+
+    <div class="main_content">
+        <div class="header"> 
+            <input class="login-button" type="button" value="Logout" /> 
+        </div> 
+    </div>
+
+        <!-- The htm content for processing should be inside this block | type of main block -->
+    <div class="container">
+        
+        <!-- Product.css whill basically affect this section rest is from dasboard.css -->
+        <div id="ProductContainer">
+
+            <div id="product">
+                <button id="AddProductBtn" >+ Add Product</button>
+                <table id="ProductsTable">
+                    <thead>
+                    <tr>
+                        <th>Product Name</th>
+                        <th>Product Price</th>
+                        <th>Quantity</th>
+                        <th>Date</th>
+                        <th>Status</th>
+                    </tr>
+                    </thead>
+                    <tbody id="ProductsList">
+                       
+                    </tbody>
+                </table>
+            </div>
+            <!-- end product -->
+
+            <div id="addproduct">
+    
+                    <form id="productForm" >
+                        <label for="Product name">Product Name:
+                            <input  type="text"  name="name">
+                        </label>
+                        
+
+                        <label for="Price">Product Price:
+                            <input  type="text"  name="price" >
+                        </label>
+                        
+
+                        <label for="Price">Product Quantity:
+                            <input  type="text" name="quantity" >
+                        </label>
+                        
+
+                        <label for="status">Status:
+                        <select id="check-status" name="status">
+                        <option value="active">Active</option>
+                        <option value="delivered">Inactive</option>
+                        </select></label>
+
+                        <label for="Date">Date:
+                            <input type="date" id="date" name="date" placeholder="date"><br>
+                        </label>
+                        <button type="submit" value="Submit">Submit </button>
+                    </form>
+
+            </div>  
+            <!-- end add product -->
+
+
+        </div>
+        <!-- end product container -->
+    </div>
+    <!-- end container -->
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script src="../../JS/Product.js"></script>
+</body>
+</html>

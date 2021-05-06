@@ -8,7 +8,7 @@ function UpdateProductTable() {
     .then((res) => res.json())
     .then((res) => {
       data = res;
-      for (let i = 0; i < data.length; ++i) {
+      for (let i = data.length - 1; i >= 0; --i) {
         console.log(data[i]);
 
         let tableTr = document.createElement("tr");

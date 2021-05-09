@@ -15,10 +15,10 @@
             <h2>INVENTORY MANAGEMENT SYSTEM</h2>
             <ul>
                 <li id="activeField"><a href="./Component-pages/Products.html"><i class="fas fa-home"></i>Product</a</li>
-                <li><a href="./Component-pages/Buyer.html"><i class="fas fa-user"></i>Buyer</a></li>
-                <li><a href="./Component-pages/Category.html"><i class="fas fa-address-card"></i>Category</a></li>
-                <li><a href="./Component-pages/Order.html"><i class="fas fa-project-diagram"></i>Order</a></li>
-                <li><a href="./Component-pages/Delivery.html"><i class="fas fa-blog"></i>Delivery</a></li>
+                <li><a href="./Buyer.html"><i class="fas fa-user"></i>Buyer</a></li>
+                <li><a href="./Category.html"><i class="fas fa-address-card"></i>Category</a></li>
+                <li><a href="./Order.html"><i class="fas fa-project-diagram"></i>Order</a></li>
+                <li><a href="./Delivery.html"><i class="fas fa-blog"></i>Delivery</a></li>
             </ul> 
         </div>
     </div>
@@ -62,15 +62,18 @@
                         </label>
                         
 
-                        <label for="Price">Product Price:
+                        <label>Product Price:
                             <input  type="text"  name="price" >
                         </label>
                         
 
-                        <label for="Price">Product Quantity:
+                        <label>Product Quantity:
                             <input  type="text" name="quantity" >
                         </label>
                         
+                        <label>Image URL: 
+                            <input type="text" name="imageurl">
+                        </label>
 
                         <label for="status">Status:
                         <select id="check-status" name="status">
@@ -81,9 +84,13 @@
                         <label for="Date">Date:
                             <input type="date" id="date" name="date" placeholder="date"><br>
                         </label>
+                    
                         <button type="submit" value="Submit">Submit </button>
-                    </form>
 
+                    
+                    </form>
+                   
+                    
             </div>  
             <!-- end add product -->
 

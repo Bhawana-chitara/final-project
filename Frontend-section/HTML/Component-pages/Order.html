@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../CSS/Dashboard.css" />
+    <link rel="stylesheet" href="../../CSS/Product.css">
+    
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <h2>INVENTORY MANAGEMENT SYSTEM</h2>
+            <ul>
+                <li><a href="./Products.html"><i class="fas fa-home"></i>Product</a</li>
+                <li><a href="./Buyer.html"><i class="fas fa-user"></i>Buyer</a></li>
+                <li><a href="./Category.html"><i class="fas fa-address-card"></i>Category</a></li>
+                <li  id="activeField"><a href="./Order.html"><i class="fas fa-project-diagram"></i>Order</a></li>
+                <li><a href="./Delivery.html"><i class="fas fa-blog"></i>Delivery</a></li>
+            </ul> 
+        </div>
+    </div>
+
+    <div class="main_content">
+        <div class="header"> 
+            <input class="login-button" type="button" value="Logout" /> 
+        </div> 
+    </div>
+
+        <!-- The htm content for processing should be inside this block | type of main block -->
+    <div class="container">
+        
+        <!-- Product.css whill basically affect this section rest is from dasboard.css -->
+        <div id="ProductContainer">
+
+            <div id="product">
+                <button id="AddProductBtn" >+ New Order</button>
+                <table id="ProductsTable">
+                    <thead>
+                    <tr>
+                        <th>Buyer Name</th>
+                        <th>Product Name</th>
+                        <th>Quantity</th>
+                        <th>Order Date</th>
+                        <th>Delivery Date</th>
+                        <th>Amount</th>
+                    </tr>
+                    </thead>
+                    <tbody id="ProductsList">
+                       
+                    </tbody>
+                </table>
+            </div>
+            <!-- end product -->
+
+            <div id="addproduct">
+    
+                    <form id="productForm" >
+
+                        <label >Buyer Name:
+                            <input  type="text"  name="buyerName">
+                        </label>
+                        
+
+                        <label>Product Name:
+                            <select name="productName" id="ProductNameSelectList">
+                                <!-- <option value="active">Active</option>
+                                <option value="delivered">Inactive</option> -->
+                            </select>
+                        </label>
+                        
+
+                        <label>Product Quantity:
+                            <input  type="text" name="productQuantity" >
+                        </label>
+                        
+                        <label>Phone Number: 
+                            <input type="text" name="phoneNumber">
+                        </label>
+
+                        <label>Email:
+                            <input type="text" name="email">
+                        </label>
+
+                        <label>Delivery Address:
+                            <input type="text" name="deliveryAddress">
+                        </label> 
+
+                        <label for="Date">Order Date:
+                            <input type="date" id="date" name="orderDate" placeholder="date"><br>
+                        </label>
+
+                        <label>Total Amount:
+                            <input type="text" name="totalAmount"> 
+                        </label>
+                    
+                        <button type="submit" value="Submit">Submit </button>
+
+                    
+                    </form>
+                   
+                    
+            </div>  
+            <!-- end add product -->
+
+
+        </div>
+        <!-- end product container -->
+    </div>
+    <!-- end container -->
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script src="../../JS/Order.js"></script>
+</body>
+</html>

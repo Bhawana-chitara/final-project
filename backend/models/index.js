@@ -1,4 +1,7 @@
 let Product = require("./product");
+let Category = require("./Category");
+let Order = require("./Order");
+let Buyer = require("./BuyerData");
 
 const mongoose = require("mongoose");
 
@@ -15,6 +18,6 @@ const connectDb = () => {
 };
 
 
-module.exports = {connectDb , Product };
+module.exports = {connectDb , Product , Category ,Order , Buyer };
 
 // export default models;

@@ -6,7 +6,7 @@ const productForm = document.getElementById("productForm");
 
 const productTable = document.getElementById("ProductsList");
 
-const URL = "http://localhost:3000/products";
+const URL = "http://localhost:3000/category";
 
 _addproduct.style.display = "none";
 updateProductList();
@@ -29,21 +29,18 @@ function updateProductList(){
         nameTd.innerHTML = data[i]["name"];
         tableTr.appendChild(nameTd);
 
-        let priceTd = document.createElement("th");
-        priceTd.innerHTML = data[i]["price"];
-        tableTr.appendChild(priceTd);
+        let catID = document.createElement("th");
+        catID.innerHTML = data[i]["_id"];
+        tableTr.appendChild(catID);
 
         let quantityTd = document.createElement("th");
-        quantityTd.innerHTML = data[i]["quantity"];
+        quantityTd.innerHTML = data[i]["stock"];
         tableTr.appendChild(quantityTd);
 
         let dateTd = document.createElement("th");
         dateTd.innerHTML = data[i]["date"];
         tableTr.appendChild(dateTd);
 
-        let statusTd = document.createElement("th");
-        statusTd.innerHTML = data[i]["status"];
-        tableTr.appendChild(statusTd);
 
         productTable.appendChild(tableTr);
       }
@@ -64,15 +61,14 @@ productForm.addEventListener('submit' , (e) => {
 
     const productFormData = new FormData(productForm);
 
-    const product = {
+    const category = {
         "name":productFormData.get("name"),
-        "price":productFormData.get("price"),
         "date":productFormData.get("date"),
-        "quantity":productFormData.get("quantity"),
-        "status":productFormData.get("status")
+        "stock":productFormData.get("stock"),
+        "imageurl":productFormData.get("imageurl")
     }
 
-    console.log(product);
+    console.log(category);
 
     const test = {
         method: 'POST', 
@@ -84,10 +80,10 @@ productForm.addEventListener('submit' , (e) => {
         },
         redirect: 'follow', 
         referrerPolicy: 'no-referrer', 
-        body: JSON.stringify(product) 
+        body: JSON.stringify(category) 
       };
 
-    fetch("http://localhost:3000/addproduct",test)
+    fetch("http://localhost:3000/addcategory",test)
     .then(res => res.json())
     .then(res => {
         console.log(res);

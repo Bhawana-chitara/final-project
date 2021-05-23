@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../CSS/Dashboard.css" />
+    <link rel="stylesheet" href="../../CSS/Product.css">
+    <link rel="stylesheet" href="../../CSS/Delivery.css">
+    
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <h2>INVENTORY MANAGEMENT SYSTEM</h2>
+            <ul>
+                <li><a href="./Products.html"><i class="fas fa-home"></i>Product</a</li>
+                <li><a href="./Buyer.html"><i class="fas fa-user"></i>Buyer</a></li>
+                <li><a href="./Category.html"><i class="fas fa-address-card"></i>Category</a></li>
+                <li><a href="./Order.html"><i class="fas fa-project-diagram"></i>Order</a></li>
+                <li id="activeField"><a href="./Delivery.html"><i class="fas fa-blog"></i>Delivery</a></li>
+            </ul> 
+        </div>
+    </div>
+
+    <div class="main_content">
+        <div class="header"> 
+            <input class="login-button" type="button" value="Logout" /> 
+        </div> 
+    </div>
+
+        <!-- The htm content for processing should be inside this block | type of main block -->
+    <div class="container">
+        
+      
+        <div class="delivery_container">
+
+            <input id="searchBar"  type="text" placeholder="Enter order ID">
+
+            <div class="order_details">
+               
+                <div class="orderid">
+                    <h3>ORDER:&#160;</h3>
+                    <h3 id="orderid"></h3>
+                </div>
+                
+                <div class="others">
+
+                <div class="col1">
+                    <div class="row1">
+                        <h3>Buyers Name:</h3>
+                        <h2 id="buyerName"></h2>
+                    </div>
+                    <div class="row2">
+                        <h3>Delivery Address:</h3>
+                        <h2 id="deliveryAddres"></h2>
+                    </div>
+                    <div class="row3">
+                        <h3>Product Name:</h3>
+                        <h2 id="productName"></h2>
+                    </div>
+                    <div class="row4">
+                        <h3>Total Cost:</h3>
+                        <h2 id="total"></h2>
+                    </div>
+                </div>
+
+                <div class="col2">
+                    <div class="col2row1">
+                        <h3>Delivery Date:</h3>
+                        <h2 id="deliveryDate"></h2>
+                    </div>
+                    <div class="col2row2">
+                        <h3>Order Date:</h3>
+                        <h2 id="orderDate"></h2>
+                    </div>
+                </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+       
+    </div>
+    <!-- end container -->
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script src="../../JS/Delivery.js"></script>
+</body>
+</html>

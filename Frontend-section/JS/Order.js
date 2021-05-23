@@ -27,6 +27,10 @@ function updateProductList(){
 
         let tableTr = document.createElement("tr");
 
+        let oderidTD = document.createElement("th");
+        oderidTD.innerHTML = data[i]["_id"];
+        tableTr.appendChild(oderidTD);
+
         let buyerNameTD = document.createElement("th");
         buyerNameTD.innerHTML = data[i]["buyerName"];
         tableTr.appendChild(buyerNameTD);

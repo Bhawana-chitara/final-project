@@ -14,7 +14,7 @@
         <div class="sidebar">
             <h2>INVENTORY MANAGEMENT SYSTEM</h2>
             <ul>
-                <li id="activeField"><a href="./Component-pages/Products.html"><i class="fas fa-home"></i>Product</a</li>
+                <li id="activeField"><a href="./Products.html"><i class="fas fa-home"></i>Product</a</li>
                 <li><a href="./Buyer.html"><i class="fas fa-user"></i>Buyer</a></li>
                 <li><a href="./Category.html"><i class="fas fa-address-card"></i>Category</a></li>
                 <li><a href="./Order.html"><i class="fas fa-project-diagram"></i>Order</a></li>
@@ -58,28 +58,32 @@
     
                     <form id="productForm" >
                         <label for="Product name">Product Name:
-                            <input  type="text"  name="name">
+                            
                         </label>
+                        <input  type="text"  name="name">
                         
 
                         <label>Product Price:
-                            <input  type="text"  name="price" >
+                           
                         </label>
+                        <input  type="text"  name="price" >
                         
 
                         <label>Product Quantity:
-                            <input  type="text" name="quantity" >
+                            
                         </label>
+                        <input  type="text" name="quantity" >
                         
-                        <label>Image URL: 
+                        <!-- <label>Image URL: 
                             <input type="text" name="imageurl">
-                        </label>
-
+                        </label> -->
+                        
                         <label for="status">Status:
-                        <select id="check-status" name="status">
-                        <option value="active">Active</option>
-                        <option value="delivered">Inactive</option>
-                        </select></label>
+                            <select id="check-status" name="status">
+                                <option value="active">Active</option>
+                                <option value="delivered">Inactive</option>
+                            </select>
+                        </label>
 
                         <label for="Date">Date:
                             <input type="date" id="date" name="date" placeholder="date"><br>

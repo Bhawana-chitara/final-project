@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
 
 app.get('/products',(req,res) => {
   models.Product.find().then(data => {
-    console.log(data);
+    // console.log(data);
     res.send(data);
   });
 });
@@ -50,7 +50,7 @@ app.post("/addproduct",(req,res) => {
 //  START CATEGORY 
 app.get('/category',(req,res) => {
   models.Category.find().then(data => {
-    console.log(data);
+    // console.log(data);
     res.send(data);
   });
 });
@@ -80,7 +80,7 @@ app.post("/addcategory",(req,res) => {
 //  START ORDER | Also addeed buyer post request
 app.get('/orders',(req,res) => {
   models.Order.find().then(data => {
-    console.log(data);
+    // console.log(data);
     res.send(data);
   });
 });
@@ -130,7 +130,7 @@ app.post("/addorder",(req,res) => {
 
 app.get('/buyers',(req,res) => {
   models.Buyer.find().then(data => {
-    console.log(data);
+    // console.log(data);
     res.send(data).status(200);
   })
   .catch(err => console.log(err));

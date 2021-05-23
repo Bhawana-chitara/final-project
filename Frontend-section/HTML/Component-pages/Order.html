@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../CSS/Dashboard.css" />
     <link rel="stylesheet" href="../../CSS/Product.css">
+    <link rel="stylesheet" href="../../CSS/Order.css">
     
     <title>Dashboard</title>
 </head>
@@ -40,6 +41,7 @@
                 <table id="ProductsTable">
                     <thead>
                     <tr>
+                        <th>Order ID</th>
                         <th>Buyer Name</th>
                         <th>Product Name</th>
                         <th>Quantity</th>
@@ -60,8 +62,8 @@
                     <form id="productForm" >
 
                         <label >Buyer Name:
-                            <input  type="text"  name="buyerName">
-                        </label>
+                           
+                        </label> <input  type="text"  name="buyerName">
                         
 
                         <label>Product Name:
@@ -73,27 +75,28 @@
                         
 
                         <label>Product Quantity:
-                            <input  type="text" name="productQuantity" >
+                            <input id="test1" type="text" name="productQuantity" >
                         </label>
+                            
                         
                         <label>Phone Number: 
-                            <input type="text" name="phoneNumber">
-                        </label>
+                           
+                        </label> <input type="text" name="phoneNumber">
 
                         <label>Email:
-                            <input type="text" name="email">
-                        </label>
+                            
+                        </label><input type="text" name="email">
 
                         <label>Delivery Address:
-                            <input type="text" name="deliveryAddress">
                         </label> 
+                        <input type="text" name="deliveryAddress">
 
                         <label for="Date">Order Date:
                             <input type="date" id="date" name="orderDate" placeholder="date"><br>
                         </label>
 
                         <label>Total Amount:
-                            <input type="text" name="totalAmount"> 
+                            <input id="test1" type="text" name="totalAmount"> 
                         </label>
                     
                         <button type="submit" value="Submit">Submit </button>
